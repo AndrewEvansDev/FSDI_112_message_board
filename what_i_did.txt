@@ -1,0 +1,113 @@
+    1  ls
+    2  cd Documents/Dev_Files/FSDI-110
+    3  source venv/bin/activate
+    4  cd Weather-App
+    5  source venv/bin/activate
+    6  clear
+    7  flask run
+    8  python3 flask run
+    9  code .
+   10  flask run
+   11  python3 export default FLASK_APP=server.py
+   12  python3 server.py
+   13  deactivate
+   14  git commit -m "added a ton of features"
+   15  git add A
+   16  git add -A
+   17  git add .
+   18  git commit
+   19  ls
+   20  cd Documents
+   21  cd Dev_Files
+   22  mkdir FSDI_112
+   23  cd FSDI_112
+   24  python3 -m venv venv
+   25  soure venve/bin/activate
+   26  source venv//bin/activate
+   27  pip3 install django
+   28  django-admin startproject config .
+   29  ls
+   30  clear
+   31  code .
+   32  python3 manage.py runserver
+   33  python3 manage.py migrate
+   34  clear
+   35  python3 manage.py startapp pages
+   36  mkdir templates
+   37  cd templates
+   38  touch index.html
+   39  python3 manage.py runserver
+   40  cd ..
+   41  python3 manage.py runserver
+   42  clear
+   43  python3 manage.py runserver
+   44  python3 manage.py test
+   45  git init
+   46  git status
+   47  pip3 freeze > requirements.txt
+   48  touch .gitignore
+   49  clear
+   50  git git status
+   51  git status 
+   52  git add -A
+   53  git status
+   54  git commit -m "initial commit"
+   55  clear
+   56  git remote add origin https://github.com/AndrewEvansDev/FSDI_112_first_django_app.git\ngit branch -M main\ngit push -u origin main
+   57  brew tap heroku/brew && brew install heroku
+   58  brew --version
+   59  clear
+   60  deactivate
+   61  brew tap heroku/brew && brew install heroku
+   62  source venv/bin/activate
+   63  clear
+   64  heroku --version
+   65  heroku login
+   66  pip3 install gunicorn
+   67  code .
+   68  clear
+   69  touch Procfile
+   70  gunicorn config.wsgi --log-file -
+   71  git status
+   72  clear
+   73  pip3 freeze > requirements.txt
+   74  git add -A
+   75  git commit -m "Added Procfile"
+   76  git log
+   77  git push
+   78  heroku create
+   79  git config --list
+   80  clear
+   81  heroku config:set DISABLE_COLLECTSTATIC=1
+   82  git push heroku main
+   83  heroku open
+   84  heroku ps:scale web=1
+   85  deactivate
+   86  cd ..
+   87  clear
+   88  mkdir FSDI_112
+   89  mkdir FSDI_112_Archive
+   90  cd /Users/andrew/Documents/Dev_Files/FSDI_112_Archive 
+   91  mkdir mb
+   92  cd mb
+   93  python3 -m venv venv
+   94  source venv/bin/activate
+   95  pip3 install django
+   96  clear
+   97  django-admin startproject config .
+   98  ls
+   99  clear
+  100  python3 manage.py startapp posts
+  101  code .
+  102  python3 manage.py migrate
+  103  clear
+  104  python3 manage.py runserver
+  105  clear
+  106  touch .gitignore
+  107  pip3 freeze > requirements.txt
+  108  git init
+  109  git add -A
+  110  git commit -m "First commit"
+  111  git remote add origin https://github.com/AndrewEvansDev/FSDI_112_message_board.git\ngit branch -M main\ngit push -u origin main
+  112  history
+  113  clear
