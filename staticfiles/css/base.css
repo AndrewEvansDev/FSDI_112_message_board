@@ -1,0 +1,58 @@
+:root{
+    --text: #051903;
+    --lessdark: #00544E;
+    --main: #1C7264;
+    --accent: #2B8984;
+    --light:#34A396;
+    --light-text: #e8f4f3;
+}
+body{
+    background-color: var(--main);
+}
+h1.about-andrew{
+    color:var(--light-text);
+    padding-left:1rem;
+}
+img.my-img{
+    max-width:300px;
+}
+div.about-wrap{
+    max-width: 500px;
+    padding:3rem;
+    background-color: var(--accent);
+}
+p.about-p{
+    max-width: 300px;
+    padding:1rem;
+    color:var(--light-text);
+}
+h1.mb-header{
+    color:var(--light-text);
+    margin:1rem;
+}
+div.message-list-wrap{
+    background-color: var(--light);
+    width:fit-content;
+    padding:1rem;
+    border-radius: 10px;
+}
+ul.mb-ul{
+    list-style-type:none;
+    max-width:500px;
+}
+li.mb-post-text{
+    color:var(--light-text);
+    padding: 1rem 0;
+}
+li.custom-hr{
+    color:var(--lessdark);
+}
+nav.nb-custom-mb{
+    background-color: var(--light) !important;
+}
+a.nav-link, a.navbar-brand{
+    color:var(--light-text) !important;
+}
+li.custom-hr:last-child{
+    display:none;
+}
