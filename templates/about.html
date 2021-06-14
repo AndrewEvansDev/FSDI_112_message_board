@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}About me{% endblock title %}
+
+{% block content %}
+<div class="about-wrap">
+<h1 class="about-andrew">Andrew Evans!</h1>
+<img class="my-img" src="{% static 'img/andrew.jpg' %}" alt="my image">
+<p class="about-p">Andrew Evans is and aspiring full stack developer and this was his first django project in class!</p>
+</div>
+{% endblock content %}
