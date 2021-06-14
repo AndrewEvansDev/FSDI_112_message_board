@@ -3,11 +3,16 @@
 {% block title %}Home{% endblock title %}
 
 {% block content %}
-<h1>Message board homepage</h1>
+<div class="container-fluid">
+    <h1 class="mb-header">Message board</h1>
 
-<ul>
-    {% for post in all_posts_list %}
-    <li>{{ post.text }}</li>
-    {% endfor %}
-</ul>
+    <div class="message-list-wrap">
+        <ul class="mb-ul">
+            {% for post in all_posts_list %}
+            <li class="mb-post-text">{{ post.text }}</li>
+            <li class="custom-hr">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
 {% endblock content %}
